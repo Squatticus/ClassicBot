@@ -163,6 +163,7 @@ h2 {
 
 /* Middle column */
 .column.middle {
+    float: center;
     background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg);
     width: 50vl;
     height: 50vh;
