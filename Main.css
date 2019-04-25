@@ -67,7 +67,7 @@ h2 {
     margin: 0 auto;
     position: relative;
     text-align: center;
-    top: -50px;
+    top: -1vh;
     padding: 0;
 }
 
@@ -147,6 +147,7 @@ h2 {
     height: auto;
     min-height: 50vh;
     overflow: visible;
+    top: -2vh;
 }
 /* Create three unequal columns that floats next to each other*/
 .column {
