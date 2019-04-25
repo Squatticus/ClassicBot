@@ -1,5 +1,5 @@
 body{
-    filter: hue-rotate(45deg);
+    filter: hue-rotate(90deg);
     background-color: #170e09;
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/5ZB6M021WNEZ1465955329787.jpg);
     color: #ebdec2;
@@ -150,10 +150,11 @@ h2 {
     min-height: 50vh;
     padding: 4vl;
 }
-/* Create three unequal columns that floats next to each other */
+/* Create three unequal columns that floats next to each other
 .column {
     float: left;
 }
+*/
 
 /* Left and right column */
 .column.side {
@@ -163,7 +164,7 @@ h2 {
 
 /* Middle column */
 .column.middle {
-    align: center;
+    float: center;
     background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg);
     width: 50vl;
     height: 50vh;
