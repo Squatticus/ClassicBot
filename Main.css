@@ -158,7 +158,6 @@ h2 {
 /* Left and right column */
 .column.side {
     width: 15%;
-    height: 50vh;
     text-align: center;
 }
 
@@ -166,7 +165,6 @@ h2 {
 .column.middle {
     background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg);
     width: 66%;
-    height: 50vh;
     padding: 2%;
 }
 
