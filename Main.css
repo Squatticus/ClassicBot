@@ -143,7 +143,6 @@ h2 {
 */
 
 #ContentContainer {
-    position: relative;
     min-width: 60vl;
     height: auto;
     min-height: 50vh;
