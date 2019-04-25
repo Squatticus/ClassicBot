@@ -51,12 +51,12 @@ h2 {
 
 #rightdef {
     height: 50vh;
-    length: 20vl;
+    width: 20vl;
 }
 
 #leftdef {
     height: 50vh;
-    length: 20vl;
+    width: 20vl;
 }
 
 /* The navbar container */
@@ -156,13 +156,13 @@ h2 {
 
 /* Left and right column */
 .column.side {
-    width: 25%;
+    width: 25vl;
 }
 
 /* Middle column */
 .column.middle {
     background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg)
-    width: 50%;
+    width: 50vl;
 }
 
 .row:after {
@@ -181,5 +181,5 @@ h2 {
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/FFEZQ21YKAU31465955330676.jpg);
     padding: 6vh;
     background-position: 50%, 50%;
-    filter: hue-rotate(180deg);
+    filter: hue-rotate(160deg);
 }
