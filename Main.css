@@ -164,7 +164,7 @@ h2 {
 
 /* Middle column */
 .column.middle {
-    background:rgba(50,50,50,0.5);
+    background:rgba(100,100,100,0.6);
     border-radius: 15px;
     /*background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg);*/
     width: 66%;
