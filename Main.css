@@ -1,7 +1,10 @@
 body{
     background-color: #170e09;
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/5ZB6M021WNEZ1465955329787.jpg);
+    filter: hue-rotate(180deg);
     color: #ebdec2;
-	font-family: OpenSans;
+    background-position: 50%, 50%;
+    font-family: OpenSans;
 }
 
 @font-face {
@@ -32,12 +35,8 @@ h2 {
     text-align: center;
     font-family: 'Semplicita';
     font-size: 5vh;
-    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/5ZB6M021WNEZ1465955329787.jpg);
     height: 21.5vh;
-    filter: hue-rotate(180deg);
     padding: 1.5vh;
-    background-position: 50%, 50%;
-    color: white;
 }
 
 .side{
