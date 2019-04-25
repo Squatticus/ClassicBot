@@ -33,7 +33,7 @@ h2 {
     font-family: 'Semplicita';
     font-size: 5vh;
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/5ZB6M021WNEZ1465955329787.jpg);
-    height: 20vh;
+    height: 21.5vh;
     filter: hue-rotate(180deg);
     padding: 1.5vh;
     background-position: 50%, 50%;
@@ -144,7 +144,7 @@ h2 {
     background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg)
     min-width: 40vl;
     height: auto;
-    min-height: 66vh;
+    min-height: 60vh;
     padding: 4vl;
 }
 /* Create three unequal columns that floats next to each other */
