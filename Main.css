@@ -1,7 +1,7 @@
 body{
     background-color: #170e09;
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/5ZB6M021WNEZ1465955329787.jpg);
-    filter: hue-rotate(180deg);
+    filter: hue-rotate(270deg);
     color: #ebdec2;
     background-position: 50%, 50%;
     font-family: OpenSans;
@@ -163,7 +163,7 @@ h2 {
 
 /* Middle column */
 .column.middle {
-    float: center;
+    align: center;
     background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg);
     width: 50vl;
     height: 50vh;
