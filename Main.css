@@ -141,7 +141,7 @@ h2 {
 }
 
 #ContentContainer {
-    background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg)
+
     min-width: 40vl;
     height: auto;
     min-height: 60vh;
@@ -159,6 +159,7 @@ h2 {
 
 /* Middle column */
 .column.middle {
+    background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg)
     width: 50%;
 }
 
@@ -178,4 +179,5 @@ h2 {
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/FFEZQ21YKAU31465955330676.jpg);
     padding: 6vh;
     background-position: 50%, 50%;
+    filter: hue-rotate(180deg);
 }
