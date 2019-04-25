@@ -149,7 +149,7 @@ h2 {
     margin: 0 auto;
     position: relative;
     overflow: visible;
-   top: -150px;
+    top: -75px;
 }
 /* Create three unequal columns that floats next to each other*/
 .column {
@@ -166,7 +166,7 @@ h2 {
 .column.middle {
     background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg);
     width: 66%;
-    height: auto;
+    height: 55vh;
     padding: 2%;
 }
 
