@@ -81,7 +81,7 @@ h2 {
     width: 263px;
     height: 150px;
     float: left;
-    overflow: visible;
+    overflow: hidden;
 }
 
 #rightcap {
@@ -89,7 +89,7 @@ h2 {
     width: 263px;
     height: 150px;
     float: right;
-    overflow: visible;
+    overflow: hidden;
 }
 
 #midItems {
@@ -147,7 +147,7 @@ h2 {
     height: auto;
     min-height: 50vh;
     overflow: visible;
-    top: -2vh;
+    top: -120px;
 }
 /* Create three unequal columns that floats next to each other*/
 .column {
