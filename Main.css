@@ -143,8 +143,6 @@ h2 {
 */
 
 #ContentContainer {
-    float: center;
-    position: relative;
     min-width: 60vl;
     height: auto;
     min-height: 50vh;
@@ -159,6 +157,8 @@ h2 {
 .column.side {
     width: 20%;
     height: 50vh;
+    text-align: center;
+    padding: 5%;
 }
 
 /* Middle column */
@@ -167,6 +167,7 @@ h2 {
     background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg);
     width: 60%;
     height: 50vh;
+    padding: 5%;
 }
 
 .row:after {
