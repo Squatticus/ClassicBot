@@ -1,5 +1,5 @@
 body{
-    filter: hue-rotate(90deg);
+    filter: hue-rotate(180deg);
     background-color: #170e09;
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/5ZB6M021WNEZ1465955329787.jpg);
     color: #ebdec2;
@@ -143,18 +143,17 @@ h2 {
 */
 
 #ContentContainer {
-    align: center;
+    float: center;
     position: relative;
     min-width: 60vl;
     height: auto;
     min-height: 50vh;
     padding: 4vl;
 }
-/* Create three unequal columns that floats next to each other
+/* Create three unequal columns that floats next to each other */
 .column {
     float: left;
 }
-*/
 
 /* Left and right column */
 .column.side {
