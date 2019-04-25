@@ -45,19 +45,19 @@ h2 {
 
 .imgcol{
     transform: translate(-37%,-25%);
-    padding: 2px;
+    padding: .2vl;
 }
 
 #rightdef {
     background-image: url(http://media.blizzard.com/wow/warlords-of-draenor-6y1fz/models/undead/male/image-2-full.jpg);
     background-position: 50%, 50%;
-    height: 513px;
+    height: 50vh;
 }
 
 #leftdef {
     background-image: url(http://media.blizzard.com/wow/warlords-of-draenor-6y1fz/models/human/male/image-3-full.jpg);
     background-position: 50%, 50%;
-    height: 513px;
+    height: 50vh;
 }
 
 /* The navbar container */
@@ -143,9 +143,9 @@ h2 {
 
 #ContentContainer {
     background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg)
-    min-width: 1200px;
+    min-width: 66vl;
     height: auto;
-    min-height: 650px;
+    min-height: 66vh;
 }
 /* Create three unequal columns that floats next to each other */
 .column {
@@ -176,6 +176,6 @@ h2 {
 .footer {
     text-align: center;
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/FFEZQ21YKAU31465955330676.jpg);
-    padding: 5em;
-    background-position: 50%, 75%;
+    padding: 10vh;
+    background-position: 50%, 50%;
 }
