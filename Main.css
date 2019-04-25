@@ -148,6 +148,9 @@ h2 {
     min-height: 50vh;
     margin: 0 auto;
     position: relative;
+    display: block;
+    margin: 0 auto;
+    float: middle;
 }
 /* Create three unequal columns that floats next to each other*/
 .column {
