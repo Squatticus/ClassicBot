@@ -148,7 +148,7 @@ h2 {
     height: auto;
     min-height: 50vh;
     overflow: visible;
-    top: -12vh;
+    top: -150px;
 }
 /* Create three unequal columns that floats next to each other*/
 .column {
@@ -184,7 +184,6 @@ h2 {
 .footer {
     text-align: center;
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/FFEZQ21YKAU31465955330676.jpg);
-    padding: 6vh;
     background-position: 50%, 50%;
     filter: hue-rotate(160deg);
 }
