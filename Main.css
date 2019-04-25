@@ -146,11 +146,13 @@ h2 {
 #ContentContainer {
     min-width: 60vl;
     height: 55vh;
+    margin: 0 auto;
+    position: relative;
     overflow: visible;
+   top: -150px;
 }
 /* Create three unequal columns that floats next to each other*/
 .column {
-    top: -150px;
     float: left;
 }
 
