@@ -62,7 +62,7 @@ h2 {
 
 /* The navbar container */
 .menu {
-    overflow: visible;
+    overflow: hidden;
     line-height: 32px;
     width: 1335px;
     margin: 0 auto;
@@ -165,10 +165,10 @@ h2 {
 /* Middle column */
 .column.middle {
     background:rgba(10,10,10,0.4);
-    border-radius: 15px;
+    border-radius: 25px;
     /*background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg);*/
     width: 66%;
-    height: 55vh;
+    height: 58vh;
     padding: 2%;
 }
 
