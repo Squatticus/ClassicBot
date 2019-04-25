@@ -146,12 +146,13 @@ h2 {
     min-width: 60vl;
     height: auto;
     min-height: 50vh;
-    padding: 4vl;
+    margin: 0 auto;
+    position: relative;
 }
-/* Create three unequal columns that floats next to each other
+/* Create three unequal columns that floats next to each other*/
 .column {
     float: left;
-}*/
+}
 
 /* Left and right column */
 .column.side {
