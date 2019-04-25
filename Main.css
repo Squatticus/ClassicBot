@@ -163,9 +163,9 @@ h2 {
 /* Middle column */
 .column.middle {
     background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg);
-    width: 60%;
+    width: 66%;
     height: 50vh;
-    padding: 5%;
+    padding: 2%;
 }
 
 .row:after {
