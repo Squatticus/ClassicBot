@@ -50,12 +50,12 @@ h2 {
 }
 
 #rightdef {
-    height: 75vh;
+    height: 50vh;
     length: 20vl;
 }
 
 #leftdef {
-    height: 75vh;
+    height: 50vh;
     length: 20vl;
 }
 
@@ -142,9 +142,9 @@ h2 {
 
 #ContentContainer {
 
-    min-width: 40vl;
+    min-width: 60vl;
     height: auto;
-    min-height: 60vh;
+    min-height: 50vh;
     padding: 4vl;
 }
 /* Create three unequal columns that floats next to each other */
