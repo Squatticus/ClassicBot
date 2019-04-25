@@ -37,7 +37,7 @@ h2 {
     font-size: 5vh;
     height: 21.5vh;
     padding: 1.5vh;
-    top: -2vh;
+    top: -50px;
 }
 
 .side{
@@ -185,6 +185,6 @@ h2 {
     text-align: center;
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/FFEZQ21YKAU31465955330676.jpg);
     background-position: 50%, 50%;
-    padding: 4vh;
+    padding: 2vh;
     filter: hue-rotate(160deg);
 }
