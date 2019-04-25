@@ -157,7 +157,7 @@ h2 {
 
 /* Left and right column */
 .column.side {
-    width: 25%;
+    width: 20%;
     height: 50vh;
 }
 
@@ -165,7 +165,7 @@ h2 {
 .column.middle {
     float: center;
     background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg);
-    width: 50vl;
+    width: 60%;
     height: 50vh;
 }
 
