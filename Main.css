@@ -145,7 +145,7 @@ h2 {
 
 #ContentContainer {
     min-width: 60vl;
-    height: 55vh;
+    min-height: 55vh;
     margin: 0 auto;
     position: relative;
     overflow: visible;
@@ -166,6 +166,7 @@ h2 {
 .column.middle {
     background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg);
     width: 66%;
+    height: auto;
     padding: 2%;
 }
 
