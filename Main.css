@@ -158,12 +158,14 @@ h2 {
 /* Left and right column */
 .column.side {
     width: 25vl;
+    height: 50vh;
 }
 
 /* Middle column */
 .column.middle {
     background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg);
     width: 50vl;
+    height: 50vh;
 }
 
 .row:after {
