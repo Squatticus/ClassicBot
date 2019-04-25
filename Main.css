@@ -68,7 +68,7 @@ h2 {
     margin: 0 auto;
     position: relative;
     text-align: center;
-    top: -1vh;
+    top: -20px;
     padding: 0;
 }
 
@@ -185,5 +185,6 @@ h2 {
     text-align: center;
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/FFEZQ21YKAU31465955330676.jpg);
     background-position: 50%, 50%;
+    padding: 4vh;
     filter: hue-rotate(160deg);
 }
