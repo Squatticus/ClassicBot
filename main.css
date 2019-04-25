@@ -1,0 +1,180 @@
+body{
+    background-color: #170e09;
+    color: #ebdec2;
+	font-family: OpenSans;
+}
+
+@font-face {
+    font-family: Semplicita;
+    src: url(https://worldofwarcraft.akamaized.net/static/fonts/semplicita-bold.woff2);
+}
+
+@font-face {
+	font-family: OpenSans;
+	src: url(https://worldofwarcraft.akamaized.net/static/fonts/opensans.woff);
+}
+
+@font-face {
+	font-family: OpenSansBold;
+	src: url(https://worldofwarcraft.akamaized.net/static/fonts/opensans-bold.woff);
+}
+
+@font-face {
+    font-family: PermMarker;
+    src: url(https://fonts.gstatic.com/s/permanentmarker/v7/9vYsg5VgPHKK8SXYbf3sMsW72xVeg1938eUHStY_AJ4.woff2);
+}
+
+h2 {
+	font-family: OpenSansBold;
+}
+
+.header {
+    text-align: center;
+    font-family: Semplicita;
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/5ZB6M021WNEZ1465955329787.jpg);
+    filter: hue-rotate(180deg);
+    padding: 5em;
+    background-position: 50%, 50%;
+    color: white;
+}
+
+.side{
+    overflow: hidden;
+}
+
+.imgcol{
+    transform: translate(-37%,-25%);
+    padding: 2px;
+}
+
+#rightdef {
+    background-image: url(http://media.blizzard.com/wow/warlords-of-draenor-6y1fz/models/undead/male/image-2-full.jpg);
+    background-position: 50%, 50%;
+    height: 513px;
+}
+
+#leftdef {
+    background-image: url(http://media.blizzard.com/wow/warlords-of-draenor-6y1fz/models/human/male/image-3-full.jpg);
+    background-position: 50%, 50%;
+    height: 513px;
+}
+
+/* The navbar container */
+.menu {
+    overflow: visible;
+    line-height: 32px;
+    width: 1335px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: -50px;
+    padding: 0;
+}
+
+#topnav {
+    height: 32px;
+    top: 11px;
+}
+
+#leftcap {
+    background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/nav-endcap-left.png);
+    width: 263px;
+    height: 150px;
+    float: left;
+    overflow: visible;
+}
+
+#rightcap {
+    background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/nav-endcap-right.png);
+    width: 263px;
+    height: 150px;
+    float: right;
+    overflow: visible;
+}
+
+#midItems {
+    background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/bg-nav-bar-mid.png);
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    width: 822px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: middle;
+}
+/* Navbar links */
+.menu a {
+    font-family: 'PermMarker';
+    font-size: 22px;
+    text-shadow: 0px .5px 0px rgba(200,200,200,.3), 0px -1px 0px rgba(0,0,0,.7);
+    top: 43px;
+    height: 63px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    color: rgb(229, 49, 1);
+}
+/* Links - change color on hover */
+.menu a:hover {
+    color: rgb(255, 126, 0);
+}
+
+.menu a.using {
+    color: rgb(255, 126, 0);
+}
+
+#wowsite {
+    top: 13px;
+    position: relative;
+    background-image: url(https://blznav.akamaized.net/img/games/logo-mobile-wow-e09169bb480f819c.png);
+    float: right;
+    overflow: hidden;
+    padding: 24px 24px;
+    margin: 0 0 0 12px;
+    background-repeat: no-repeat;
+}
+
+#ContentContainer {
+    background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg)
+    min-width: 1200px;
+    height: auto;
+    min-height: 650px;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+.footer {
+    text-align: center;
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/FFEZQ21YKAU31465955330676.jpg);
+    padding: 5em;
+    background-position: 50%, 75%;
+}
