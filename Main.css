@@ -146,7 +146,7 @@ h2 {
 #ContentContainer {
     min-width: 60vl;
     height: auto;
-    min-height: 50vh;
+    min-height: 55vh;
     overflow: visible;
     top: -150px;
 }
@@ -183,6 +183,6 @@ h2 {
     text-align: center;
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/FFEZQ21YKAU31465955330676.jpg);
     background-position: 50%, 50%;
-    padding: 2vh;
+    padding: 4vh;
     filter: hue-rotate(160deg);
 }
