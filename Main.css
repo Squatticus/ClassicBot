@@ -37,7 +37,7 @@ h2 {
     font-size: 5vh;
     height: 21.5vh;
     padding: 1.5vh;
-    top: -1vh;
+    top: -2vh;
 }
 
 .side{
@@ -148,7 +148,7 @@ h2 {
     height: auto;
     min-height: 50vh;
     overflow: visible;
-    top: -3vh;
+    top: -6vh;
 }
 /* Create three unequal columns that floats next to each other*/
 .column {
