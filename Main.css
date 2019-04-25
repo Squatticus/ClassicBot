@@ -33,6 +33,7 @@ h2 {
     font-family: 'Semplicita';
     font-size: 5vh;
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/5ZB6M021WNEZ1465955329787.jpg);
+    height: 7vh;
     filter: hue-rotate(180deg);
     padding: 1.5vh;
     background-position: 50%, 50%;
@@ -45,20 +46,18 @@ h2 {
 
 .imgcol{
     transform: translate(-37%,-25%);
-    padding: .2vl;
+    padding: 2vl;
 }
 
 #rightdef {
     background-image: url(http://media.blizzard.com/wow/warlords-of-draenor-6y1fz/models/undead/male/image-2-full.jpg);
     background-position: 50%, 50%;
-    padding: 2vl;
     height: 50vh;
 }
 
 #leftdef {
     background-image: url(http://media.blizzard.com/wow/warlords-of-draenor-6y1fz/models/human/male/image-3-full.jpg);
     background-position: 50%, 50%;
-    padding: 2vl;
     height: 50vh;
 }
 
@@ -148,6 +147,7 @@ h2 {
     min-width: 40vl;
     height: auto;
     min-height: 66vh;
+    padding: 4vl;
 }
 /* Create three unequal columns that floats next to each other */
 .column {
