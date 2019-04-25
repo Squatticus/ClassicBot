@@ -148,10 +148,10 @@ h2 {
     min-height: 50vh;
     padding: 4vl;
 }
-/* Create three unequal columns that floats next to each other */
+/* Create three unequal columns that floats next to each other
 .column {
     float: left;
-}
+}*/
 
 /* Left and right column */
 .column.side {
