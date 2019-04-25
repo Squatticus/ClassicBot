@@ -148,7 +148,7 @@ h2 {
     height: auto;
     min-height: 50vh;
     overflow: visible;
-    top: -6vh;
+    top: -12vh;
 }
 /* Create three unequal columns that floats next to each other*/
 .column {
