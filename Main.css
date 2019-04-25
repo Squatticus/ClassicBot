@@ -145,8 +145,7 @@ h2 {
 
 #ContentContainer {
     min-width: 60vl;
-    height: auto;
-    min-height: 55vh;
+    height: 55vh;
     overflow: visible;
     top: -150px;
 }
