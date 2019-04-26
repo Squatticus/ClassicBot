@@ -138,8 +138,6 @@ h2 {
 	float: middle;
 	height: auto;
     overflow: auto;
-	display: block;
-	text-align: center;
 }
 
 /* Left and right column */
@@ -149,6 +147,7 @@ h2 {
 
 /* Middle column */
 .column.middle {
+	text-align: center;
     background:rgba(10,10,10,0.4);
     border-radius: 25px;
     max-width: 1300px;
@@ -157,7 +156,6 @@ h2 {
     padding: 2vh;
 	padding-left: 3vl;
 	padding-right: 3v1;
-	float: middle;
 }
 
 .row:after {
