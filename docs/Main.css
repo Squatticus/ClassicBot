@@ -135,7 +135,7 @@ h2 {
 }
 
 #ContentContainer {
-	content: "css text test3";
+	float: middle;
 	height: auto;
     overflow: auto;
 }
@@ -147,19 +147,20 @@ h2 {
 
 /* Left and right column */
 .column.side {
-    width: 15%;
     text-align: center;
 }
 
 /* Middle column */
 .column.middle {
-	content: "css text test";
     background:rgba(10,10,10,0.4);
     border-radius: 25px;
     max-width: 1300px;
 	width: 90vl;
     height: 65vh;
-    padding: 2vl;
+    padding: 2vh;
+	padding-left: 3vl;
+	padding-right: 3v1;
+	float: middle;
 }
 
 .row:after {
