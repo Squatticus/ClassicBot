@@ -135,6 +135,8 @@ h2 {
 }
 
 #ContentContainer {
+	position: relative;
+	text-align: center;
 	float: middle;
 	height: auto;
     overflow: auto;
@@ -147,12 +149,10 @@ h2 {
 
 /* Middle column */
 .column.middle {
-	text-align: center;
     background:rgba(10,10,10,0.4);
     border-radius: 25px;
     max-width: 1300px;
 	width: 90vl;
-    height: 65vh;
     padding: 2vh;
 	padding-left: 3vl;
 	padding-right: 3v1;
