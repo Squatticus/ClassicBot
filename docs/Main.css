@@ -138,6 +138,7 @@ h2 {
 	float: middle;
 	height: auto;
     overflow: auto;
+	display: inline-block;
 	text-align: center;
 }
 
