@@ -89,6 +89,7 @@ h2 {
     border-image-width: 1;
     width: 822px;
     height: 150px;
+    display: inblock;
     margin: 0 auto;
 	float: middle;
 }
@@ -135,9 +136,7 @@ h2 {
 
 #ContentContainer {
 	position: relative;
-	margin: 0 auto;
-	text-align: center;
-	float: middle;
+    text-align: center;
 	height: auto;
     overflow: auto;
 }
@@ -149,6 +148,9 @@ h2 {
 
 /* Middle column */
 .column.middle {
+	float: middle;
+    display: inline-block;
+    text-align: center;
     background:rgba(10,10,10,0.4);
     border-radius: 25px;
     max-width: 1300px;
