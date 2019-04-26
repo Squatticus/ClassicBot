@@ -5,6 +5,7 @@ body{
     color: #ebdec2;
     background-position: 50%, 50%;
     font-family: OpenSans;
+	height: 100%;
 }
 
 @font-face {
@@ -34,10 +35,8 @@ h2 {
 .header {
     text-align: center;
     font-family: 'Semplicita';
-    font-size: 5vh;
-    height: 21.5vh;
-    padding: 1.5vh;
-    top: -50px;
+    font-size: 3em;
+    height: 3em;
 }
 
 .side{
@@ -186,19 +185,6 @@ h2 {
     color: rgb(255, 126, 0);
 }
 
-/*
-#wowsite {
-    top: 13px;
-    position: relative;
-    background-image: url(https://blznav.akamaized.net/img/games/logo-mobile-wow-e09169bb480f819c.png);
-    float: right;
-    overflow: hidden;
-    padding: 24px 24px;
-    margin: 0 0 0 12px;
-    background-repeat: no-repeat;
-}
-*/
-
 #ContentContainer {
     min-width: 60vl;
     min-height: 55vh;
@@ -240,9 +226,11 @@ h2 {
     }
 }
 .footer {
-    text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background: white;
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/FFEZQ21YKAU31465955330676.jpg);
-    background-position: 50%, 50%;
-    padding: 4vh;
     filter: hue-rotate(160deg);
 }
