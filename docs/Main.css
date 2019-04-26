@@ -53,7 +53,6 @@ h2 {
     height: 50vh;
     width: 20vl;
 }
-
 #leftdef {
     height: 50vh;
     width: 20vl;
@@ -66,7 +65,8 @@ h2 {
     line-height: 32px;
     width: 1335px;
     margin: 0 auto;
-    position: relative;
+    position: webkit-sticky;
+	position: sticky;
     text-align: center;
     top: -20px;
     padding: 0;
@@ -77,6 +77,58 @@ h2 {
     top: 11px;
 }
 
+@media (min-width: 822px){
+#midItems {
+    background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/bg-nav-bar-mid.png);
+    background-repeat: no-repeat;
+	border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    width: 80vl;
+    height: 150px;
+    display: block;
+	margin: 0 auto;
+	float: middle;
+}
+}
+
+@media (min-width: 1335px){
+#midItems {
+    background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/bg-nav-bar-mid.png);
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    width: 822px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+	float: middle;
+}
+}
+
+@media (min-width: 822px){
+#leftcap {
+	background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/nav-endcap-left.png);
+	width: 10vl;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+}
+
+#rightcap {
+	background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/nav-endcap-left.png);
+    width: 10vl;
+    height: 150px;
+    float: right;
+    overflow: hidden;
+}
+}
+
+@media (min-width: 1335px){
 #leftcap {
     background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/nav-endcap-left.png);
     width: 263px;
@@ -92,21 +144,9 @@ h2 {
     float: right;
     overflow: hidden;
 }
-
-#midItems {
-    background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/bg-nav-bar-mid.png);
-    border-image-outset: 0px;
-    border-image-repeat: stretch;
-    border-image-slice: 100%;
-    border-image-source: none;
-    border-image-width: 1;
-    width: 822px;
-    height: 150px;
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    float: middle;
 }
+
+
 /* Navbar links */
 .menu a {
     font-family: 'PermMarker';
@@ -121,6 +161,7 @@ h2 {
     text-decoration: none;
     color: rgb(229, 49, 1);
 }
+
 /* Links - change color on hover */
 .menu a:hover {
     color: rgb(255, 126, 0);
