@@ -40,25 +40,6 @@ h2 {
     height: 3em;
 }
 
-.side{
-    overflow: hidden;
-}
-
-.imgcol{
-    transform: translate(-37%,-25%);
-    padding: 2px;
-}
-
-#rightdef {
-    height: 50vh;
-    width: 20vl;
-}
-#leftdef {
-    height: 50vh;
-    width: 20vl;
-}
-
-
 /* The navbar container */
 .menu {
     overflow: hidden;
