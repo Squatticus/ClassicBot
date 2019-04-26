@@ -131,10 +131,9 @@ h2 {
 .column.middle {
 	float: middle;
     display: inline-block;
-    text-align: center;
     background:rgba(10,10,10,0.4);
     border-radius: 25px;
-    max-width: 1300px;
+    max-width: 1200px;
 	width: 90vl;
     padding: 2vh;
 }
