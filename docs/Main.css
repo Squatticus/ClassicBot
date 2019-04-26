@@ -63,13 +63,28 @@ h2 {
 .menu {
     overflow: hidden;
     line-height: 32px;
-    width: 1335px;
+    width: 1348px;
     margin: 0 auto;
-    position: webkit-sticky;
-	position: sticky;
+    position: relative;
+    text-align: center;
+    top: -20px;
+	left: 50%;
+	margin-left: -724px;
+    padding: 0;
+}
+
+@media (min-width: 1348px){
+.menu {
+    overflow: hidden;
+    line-height: 32px;
+    width: 1348px;
+    margin: 0 auto;
+    position: relative;
     text-align: center;
     top: -20px;
     padding: 0;
+	left: 0px;
+}
 }
 
 #topnav {
@@ -77,7 +92,7 @@ h2 {
     top: 11px;
 }
 
-@media (min-width: 822px){
+
 #midItems {
     background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/bg-nav-bar-mid.png);
     background-repeat: no-repeat;
@@ -86,15 +101,15 @@ h2 {
     border-image-slice: 100%;
     border-image-source: none;
     border-image-width: 1;
-    width: 80vl;
+    width: 822px;
     height: 150px;
     display: block;
-	margin: 0 auto;
+    margin: 0 auto;
 	float: middle;
 }
-}
 
-@media (min-width: 1335px){
+
+@media (min-width: 1348px){
 #midItems {
     background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/bg-nav-bar-mid.png);
     border-image-outset: 0px;
@@ -113,22 +128,22 @@ h2 {
 @media (min-width: 822px){
 #leftcap {
 	background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/nav-endcap-left.png);
-	width: 10vl;
+	width: 263px;
     height: 150px;
-    float: left;
+	float: left;
     overflow: hidden;
 }
 
 #rightcap {
-	background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/nav-endcap-left.png);
-    width: 10vl;
+	background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/nav-endcap-right.png);
+    width: 263px;
     height: 150px;
-    float: right;
     overflow: hidden;
+	float: right;
 }
 }
 
-@media (min-width: 1335px){
+@media (min-width: 1348px){
 #leftcap {
     background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/nav-endcap-left.png);
     width: 263px;
