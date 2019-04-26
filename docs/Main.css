@@ -1,7 +1,8 @@
 body{
     filter: hue-rotate(180deg);
-    background-color: #170e09;
+    background-color: rgb(14, 32, 38);
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/5ZB6M021WNEZ1465955329787.jpg);
+	background-repeat: no-repeat;
     color: #ebdec2;
     background-position: 50%, 50%;
     font-family: OpenSans;
