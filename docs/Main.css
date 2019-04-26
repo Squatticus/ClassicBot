@@ -5,7 +5,8 @@ body{
     color: #ebdec2;
     background-position: 50%, 50%;
     font-family: OpenSans;
-	height: 100%;
+	height: 97vh;
+	padding-bottom: 3vh;
 }
 
 @font-face {
@@ -45,9 +46,9 @@ h2 {
 
 .imgcol{
     transform: translate(-37%,-25%);
-    padding: 2vl;
+    padding: 2px;
 }
-/*
+
 #rightdef {
     height: 50vh;
     width: 20vl;
@@ -56,7 +57,7 @@ h2 {
     height: 50vh;
     width: 20vl;
 }
-*/
+
 
 /* The navbar container */
 .menu {
@@ -70,20 +71,6 @@ h2 {
 	left: 50%;
 	margin-left: -674px;
     padding: 0;
-}
-
-@media (min-width: 1348px){
-.menu {
-    overflow: hidden;
-    line-height: 32px;
-    width: 1348px;
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-    top: -20px;
-    padding: 0;
-	left: 0px;
-}
 }
 
 #topnav {
@@ -107,24 +94,6 @@ h2 {
 	float: middle;
 }
 
-
-@media (min-width: 1348px){
-#midItems {
-    background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/bg-nav-bar-mid.png);
-    border-image-outset: 0px;
-    border-image-repeat: stretch;
-    border-image-slice: 100%;
-    border-image-source: none;
-    border-image-width: 1;
-    width: 822px;
-    height: 150px;
-    display: block;
-    margin: 0 auto;
-	float: middle;
-}
-}
-
-@media (min-width: 822px){
 #leftcap {
 	background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/nav-endcap-left.png);
 	width: 263px;
@@ -140,26 +109,6 @@ h2 {
     overflow: hidden;
 	float: right;
 }
-}
-
-@media (min-width: 1348px){
-#leftcap {
-    background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/nav-endcap-left.png);
-    width: 263px;
-    height: 150px;
-    float: left;
-    overflow: hidden;
-}
-
-#rightcap {
-    background-image: url(http://us.battle.net/wow/static/images/warlords-of-draenor-6y1fz/nav/nav-endcap-right.png);
-    width: 263px;
-    height: 150px;
-    float: right;
-    overflow: hidden;
-}
-}
-
 
 /* Navbar links */
 .menu a {
@@ -186,13 +135,13 @@ h2 {
 }
 
 #ContentContainer {
+	content: "css text test3";
     min-width: 60vl;
+	height: auto;
     min-height: 55vh;
-    margin: 0 auto;
-    position: relative;
     overflow: auto;
-    top: -20px;
 }
+
 /* Create three unequal columns that floats next to each other*/
 .column {
     float: left;
@@ -206,12 +155,12 @@ h2 {
 
 /* Middle column */
 .column.middle {
+	content: "css text test";
     background:rgba(10,10,10,0.4);
     border-radius: 25px;
-    /*background-image: url(https://worldofwarcraft.akamaized.net/static/components/Pane/Pane-dirtDark.jpg);*/
     width: 66%;
     height: 58vh;
-    padding: 2%;
+    padding: 2vl;
 }
 
 .row:after {
@@ -226,10 +175,10 @@ h2 {
     }
 }
 .footer {
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 50px;
+	height: 3vh;
 	background: white;
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/FFEZQ21YKAU31465955330676.jpg);
     filter: hue-rotate(160deg);
