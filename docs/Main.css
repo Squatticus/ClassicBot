@@ -136,6 +136,7 @@ h2 {
 
 #ContentContainer {
 	position: relative;
+	margin: 0 auto;
 	text-align: center;
 	float: middle;
 	height: auto;
